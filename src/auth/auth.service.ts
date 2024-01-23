@@ -7,7 +7,7 @@ import { Model } from 'mongoose';
 
 import { JwtService } from '@nestjs/jwt';
 import { JwtPayload } from './interfaces/jwt-payload';
-import { LoginResponse } from './interfaces/login-Response';
+import { LoginResponse } from './interfaces/login-response';
 
 import { LoginDto, CreateUserDto, UpdateAuthDto, RegisterUserDto } from './dto';
 
